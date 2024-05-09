@@ -20,7 +20,7 @@ npm  install  click-outside-wrapper
 **1. Using the Custom Hook (useClickOutside)**  
 
 ```
-//
+// using the hook
 
 import React, { useRef } from 'react';
 import useClickOutside from 'click-outside-wrapper';  
@@ -54,6 +54,7 @@ const MyComponent: React.FC = () => {
 **2. Using the Wrapper Component (ClickOutsideWrapper)**
 
 ```
+// // using the wrapper
 import React from 'react';
 import ClickOutsideWrapper from 'click-outside-wrapper';
   
@@ -63,7 +64,8 @@ const MyComponent: React.FC = () => {
     // Define click outside handler
 
     const handleClickOutside = () => {
-        console.log('Clicked outside');    };
+        console.log('Clicked outside');    
+    };
   
 
     return (
