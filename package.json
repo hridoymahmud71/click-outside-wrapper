@@ -1,0 +1,26 @@
+{
+  "name": "click-outside-wrapper",
+  "version": "1.0.2",
+  "description": "",
+  "main": "dist/index.js", 
+  "types": "index.d.ts", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hridoymahmud71/click-outside-wrapper.git"
+  }
+}
