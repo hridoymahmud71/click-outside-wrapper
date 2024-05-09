@@ -1,12 +1,12 @@
 {
-    "compilerOptions": {
-      "target": "es5",
-      "module": "commonjs",
-      "strict": true,
-      "jsx": "react",
-      "outDir": "dist",
-      "esModuleInterop": true
-    },
-    "include": ["src"]
-  }
-  
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "jsx": "react",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "declaration": true
+  },
+  "include": ["src"]
+}

@@ -26,8 +26,14 @@ export const useClickOutside = (handler: ClickOutsideHandler): RefObject<HTMLDiv
   return ref;
 };
 
+// Props for the ClickOutsideWrapper component
+interface ClickOutsideWrapperProps {
+  onClickOutside: ClickOutsideHandler;
+  children: ReactNode; // Declare the children prop explicitly
+}
+
 // Wrapper component to utilize the useClickOutside hook
-export const ClickOutsideWrapper: React.FC<{ onClickOutside: ClickOutsideHandler }> = ({ children, onClickOutside }) => {
+export const ClickOutsideWrapper: React.FC<ClickOutsideWrapperProps> = ({ children, onClickOutside }) => {
   const wrapperRef = useClickOutside(onClickOutside);
   return <div ref={wrapperRef}>{children}</div>;
 };
