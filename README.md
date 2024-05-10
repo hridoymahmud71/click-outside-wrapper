@@ -54,7 +54,7 @@ const MyComponent: React.FC = () => {
 **2. Using the Wrapper Component (ClickOutsideWrapper)**
 
 ```
-// // using the wrapper
+// using the wrapper
 import React from 'react';
 import ClickOutsideWrapper from 'click-outside-wrapper';
   
@@ -94,3 +94,7 @@ onClickOutside: A function to be called when a click occurs outside the wrapped 
 **License**
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Requirments
+
+**React 18.3.1 or later ( your version of React must support hooks)**

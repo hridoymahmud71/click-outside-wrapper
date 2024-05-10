@@ -1,14 +1,14 @@
 {
   "name": "click-outside-wrapper",
-  "version": "1.0.3",
-  "description": "",
+  "version": "1.0.4",
+  "description": "A custom React hook and wrapper component to handle clicks outside a specified element. ",
   "main": "dist/index.js", 
   "types": "index.d.ts", 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["react","click", "click outside","handler", "wrapper", "custom hook"],
+  "author": "Mahmudur Rahman",
   "license": "ISC",
   "dependencies": {
     "react": "^18.3.1",
